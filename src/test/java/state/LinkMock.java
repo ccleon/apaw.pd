@@ -1,6 +1,6 @@
-package es.upm.miw.pd.state.conection;
+package state;
 
-import es.upm.miw.pd.state.connection.Link;
+import state.Link;
 
 public final class LinkMock implements Link {
     private String msg;
@@ -16,7 +16,7 @@ public final class LinkMock implements Link {
     }
 
     @Override
-    public void enviar(String msg) {
+    public void enviar (String msg) {
         this.msg = msg;
     }
 

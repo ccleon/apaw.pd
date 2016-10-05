@@ -32,7 +32,7 @@ public class ExpressionTest {
     }
 
     @Test
-    public void TestSuma() {
+    public void testSuma() {
         assertEquals(6, this.exp2.operar());
     }
 
